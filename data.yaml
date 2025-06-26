@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['bus', 'car', 'license-plate', 'truck']
+
+roboflow:
+  workspace: tugas-akhir-coaxh
+  project: car-and-plate-detection-bpvbi
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/tugas-akhir-coaxh/car-and-plate-detection-bpvbi/dataset/1
